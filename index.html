@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Book Collection</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Book Collection</h1>
+  <table id="booksTable">
+    <thead>
+      <tr>
+        <th width="200">Author</th>
+        <th width="300">Title</th>
+        <!-- <th>Publisher</th> -->
+        <th>Number of Copies Found</th>
+        <th>Highest Price</th>
+        <th>Lowest Price</th>
+        <th>Median Price</th>
+        <th>Date of search</th>
+        <th>ABE Search Url</th>
+        <!-- Add more headers based on your JSON keys -->
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be added here by JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    fetch('collection-sorted.json')
+      // .then(response => response.json())
+      .then(jsonData => {
+        const table = document.getElementById('booksTable').getElementsByTagName('tbody')[0];
+
+        jsonData.forEach(book => {
+          let row = table.insertRow();
+          Object.values(book).forEach(text => {
+            let cell = row.insertCell();
+            cell.textContent = text;
+          });
+        });
+      })
+      .catch(error => console.error('Error loading the JSON file:', error));
+  </script>
+</body>
+
+</html>
