@@ -10,22 +10,38 @@ def scrape_abebooks(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
+    # Extracting stock image URL
+    image_element = soup.find("img", {"class": "srp-item-image"})
+    image_url = image_element['src'] if image_element else 'No image found'
+
     # Find the element with the count
     count_element = soup.find("span", {"data-cy": "product-type-2-count"})
     if count_element:
         count_text = count_element.text
-        count = int(re.search(r'\((\d+)\)', count_text).group(1))
+        match = re.search(r'\((\d+)\)', count_text)
+        count = int(match.group(1)) if match else 0
     else:
         count = 0
 
     # Extracting prices
     prices = []
     for price in soup.find_all("p", class_="item-price"):
-        prices.append(price.text.strip())
+        price_text = price.text.strip()
+        if price_text.startswith('US$'):
+            price_text = price_text[3:].replace(',', '')  # Remove comma and currency symbol
+        prices.append(float(price_text))  # Convert price to float
+
+    highest_price = max(prices, default=None)
+    lowest_price = min(prices, default=None)
+    median_price = sorted(prices)[len(prices) // 2] if prices else None
 
     return {
-        "number_of_prices": count,
-        "prices": prices
+        "Stock Image": image_url,
+        "Number of Copies Found": count,
+        "Highest Price": highest_price,
+        "Median Price": median_price,
+        "Lowest Price": lowest_price,
+        "Date of Search": datetime.now().strftime("%Y-%m-%d")
     }
 
 def read_json_file(file_name):
@@ -47,16 +63,17 @@ def write_to_csv(data, file_name):
 
 def main():
     # Load existing collection
-    collection = read_json_file('collection.json')
+    collection = read_json_file('collection-raw.json')
 
     # Load additional books if the file exists
     try:
         additional_books = read_json_file('additional-books.json')
+
         # Check for duplicate titles
-        existing_titles = {book['title'] for book in collection}
+        existing_titles = {book['Title'] for book in collection}
         for book in additional_books:
-            if book['title'] in existing_titles:
-                print(f"Duplicate title found: {book['title']}")
+            if book['Title'] in existing_titles:
+                print(f"Duplicate Title found: {book['Title']}")
                 break
             collection.append(book)
     except FileNotFoundError:
@@ -66,19 +83,13 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
 
     for book in collection:
-        if update_prices:
-            # print(type(book), book)  # Add this line to check the type and value of book
-            scrape_results = scrape_abebooks(book['abe-search-url'])
-            # Standardizing key names and updating values
-            book['Number of Copies Found'] = scrape_results['number_of_prices']
-            book['Highest Price'] = max([float(p[3:]) for p in scrape_results['prices'] if p.startswith('US$')], default=None)
-            book['Lowest Price'] = min([float(p[3:]) for p in scrape_results['prices'] if p.startswith('US$')], default=None)
-            book['Median Price'] = sorted([float(p[3:]) for p in scrape_results['prices'] if p.startswith('US$')])[len(scrape_results['prices']) // 2] if scrape_results['prices'] else None
-            book['Date of Search'] = today
+        scrape_results = scrape_abebooks(book['ABE Search'])
+        book.update(scrape_results)
+        # Standardizing key names and updating values
 
 
     # Sort collection by 'Number of Copies Found' in ascending order
-    sorted_collection = sorted(collection, key=lambda x: int(x['Number of Copies Found']))
+    sorted_collection = sorted(collection, key=lambda x: int(x.get('Number of Copies Found', 0)))
 
     write_json_file('collection-sorted.json', sorted_collection)
     write_to_csv(sorted_collection, 'collection-sorted.csv')

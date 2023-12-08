@@ -1,100 +1,200 @@
 [
-    {
-        "Author": "Mimmo Jodice",
-        "Title": "Mediterranean Photographs",
-        "Publisher": "Aperture",
-        "Number of Copies Found": 6,
-        "Highest Price": 77.61,
-        "Lowest Price": 15.0,
-        "Median Price": 37.49,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Mediterranean%20Photographs&an=Mimmo%20Jodice"
-    },
-    {
-        "Author": "Richard Chalfen",
-        "Title": "Turning Leaves: The Photograph Collections of Two Japanese American Families",
-        "Number of Copies Found": 16,
-        "Highest Price": 352.85,
-        "Lowest Price": 4.0,
-        "Median Price": 19.95,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Turning%20Leaves:%20The%20Photograph%20Collections%20of%20Two%20Japanese%20American%20Families&an=Richard%20Chalfen"
-    },
-    {
-        "Author": "Japanese American National Museum",
-        "Title": "Japanese American History: An A-to-Z Reference from 1868 to the Present",
-        "Editor": "Brian Niiya",
-        "Foreword by": "Senator Daniel K. Inouye",
-        "Number of Copies Found": 19,
-        "Highest Price": 401.75,
-        "Lowest Price": 6.6,
-        "Median Price": 15.97,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Japanese%20American%20History:%20An%20A-to-Z%20Reference%20from%201868%20to%20the%20Present&an=Japanese%20American%20National%20Museum"
-    },
-    {
-        "Author": "Michael Lesy",
-        "Title": "Bearing Witness: A Photographic Chronicle of American Life, 1860-1945",
-        "Number of Copies Found": 22,
-        "Highest Price": 60.99,
-        "Lowest Price": 6.94,
-        "Median Price": 25.0,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Bearing%20Witness:%20A%20Photographic%20Chronicle%20of%20American%20Life,%201860-1945&an=Michael%20Lesy"
-    },
-    {
-        "Author": "Marilyn Bridges",
-        "Title": "An Aerial Journey Through a Timeless Land: Planet Peru",
-        "Publisher": "Kodak/Aperture",
-        "Number of Copies Found": 23,
-        "Highest Price": 79.57,
-        "Lowest Price": 4.13,
-        "Median Price": 25.0,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=An%20Aerial%20Journey%20Through%20a%20Timeless%20Land:%20Planet%20Peru&an=Marilyn%20Bridges"
-    },
-    {
-        "Author": "Robbert Flick",
-        "Title": "Trajectories",
-        "Publisher": "Edition Stemmle",
-        "Number of Copies Found": 25,
-        "Highest Price": 105.35,
-        "Lowest Price": 11.58,
-        "Median Price": 37.5,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Trajectories&an=Robbert%20Flick"
-    },
-    {
-        "Author": "Wayne F. Miller",
-        "Title": "Chicago's South Side 1946-1948",
-        "Foreword by": "Orville Schell",
-        "Commentaries by": "Gordon Parks and Robert B. Stepto",
-        "Number of Copies Found": 30,
-        "Highest Price": 349.56,
-        "Lowest Price": 7.07,
-        "Median Price": 45.0,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Chicago's%20South%20Side%201946-1948&an=Wayne%20F.%20Miller"
-    },
-    {
-        "Author": "Eberhard Grames",
-        "Title": "Broken Spirits",
-        "Publisher": "Edition Stemmle",
-        "Number of Copies Found": 41,
-        "Highest Price": 35.0,
-        "Lowest Price": 4.83,
-        "Median Price": 13.31,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Broken%20Spirits&an=Eberhard%20Grames"
-    },
-    {
-        "Author": "Man Ray",
-        "Title": "Photographs",
-        "Number of Copies Found": 266,
-        "Highest Price": 30.0,
-        "Lowest Price": 7.42,
-        "Median Price": 19.08,
-        "Date of Search": "2023-12-07",
-        "abe-search-url": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Photographs&an=Man%20Ray"
-    }
+  {
+    "Title": "A City Seen: Cleveland Through the Eyes of [Various Photographers]",
+    "Author": "Various",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&tn=A%20City%20Seen:%20Cleveland%20Through%20the%20Eyes",
+    "Stock Image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/41G36GMR0VL.jpg",
+    "Number of Copies Found": 0,
+    "Highest Price": null,
+    "Median Price": null,
+    "Lowest Price": null,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Louis Kahn",
+    "Author": "Louis Kahn, Joseph Rykwert",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&tn=Louis%20Kahn",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780374279974-us-300.jpg",
+    "Number of Copies Found": 0,
+    "Highest Price": 15.28,
+    "Median Price": 8.77,
+    "Lowest Price": 2.87,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Clemente",
+    "Author": "Guggenheim Museum",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Guggenheim%20Museum&tn=Clemente",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780810969179-us.jpg",
+    "Number of Copies Found": 3,
+    "Highest Price": 560.0,
+    "Median Price": 145.0,
+    "Lowest Price": 45.0,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Mediterranean Photographs",
+    "Author": "Mimmo Jodice",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Mediterranean%20Photographs&an=Mimmo%20Jodice",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780893816643-us-300.jpg",
+    "Number of Copies Found": 6,
+    "Highest Price": 77.79,
+    "Median Price": 37.49,
+    "Lowest Price": 15.0,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Deconstruction",
+    "Author": "Andreas Papadakis, Catherine Cooke, Andrew Benjamin",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Andreas%20Papadakis,%20Catherine%20Cooke,%20Andrew%20Benjamin&tn=Deconstruction",
+    "Stock Image": "https://pictures.abebooks.com/inventory/md/md31595156466.jpg",
+    "Number of Copies Found": 8,
+    "Highest Price": 145.0,
+    "Median Price": 57.5,
+    "Lowest Price": 22.41,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Where Every Breath is a Prayer: A Photographic Pilgrimage into the Spiritual Heart of Asia",
+    "Author": "Jon Ortner",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Jon%20Ortner&tn=Where%20Every%20Breath%20is%20a%20Prayer:%20A%20Photographic%20Pilgrimage%20into%20the%20Spiritual%20Heart%20of%20Asia",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9781556704390-us-300.jpg",
+    "Number of Copies Found": 9,
+    "Highest Price": 40.0,
+    "Median Price": 17.09,
+    "Lowest Price": 7.3,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Waves and Plagues: The Art of Masami Teraoka",
+    "Author": "Masami Teraoka",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Masami%20Teraoka&tn=Waves%20and%20Plagues:%20The%20Art%20of",
+    "Stock Image": "https://pictures.abebooks.com/inventory/md/md31512435953.jpg",
+    "Number of Copies Found": 11,
+    "Highest Price": 125.0,
+    "Median Price": 22.41,
+    "Lowest Price": 19.38,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Turning Leaves: The Photograph Collections of Two Japanese American Families",
+    "Author": "Richard Chalfen",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Turning%20Leaves:%20The%20Photograph%20Collections%20of%20Two%20Japanese%20American%20Families&an=Richard%20Chalfen",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780826312433-us-300.jpg",
+    "Number of Copies Found": 16,
+    "Highest Price": 348.8,
+    "Median Price": 19.95,
+    "Lowest Price": 4.0,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Japanese American History: An A-to-Z Reference from 1868 to the Present",
+    "Author": "Japanese American National Museum",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Japanese%20American%20History:%20An%20A-to-Z%20Reference%20from%201868%20to%20the%20Present&an=Japanese%20American%20National%20Museum",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780816040933-us-300.jpg",
+    "Number of Copies Found": 19,
+    "Highest Price": 401.76,
+    "Median Price": 16.42,
+    "Lowest Price": 6.6,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "An Aerial Journey Through a Timeless Land: Planet Peru",
+    "Author": "Marilyn Bridges",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=An%20Aerial%20Journey%20Through%20a%20Timeless%20Land:%20Planet%20Peru&an=Marilyn%20Bridges",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780893814694-us-300.jpg",
+    "Number of Copies Found": 20,
+    "Highest Price": 74.21,
+    "Median Price": 25.0,
+    "Lowest Price": 4.13,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Bearing Witness: A Photographic Chronicle of American Life, 1860-1945",
+    "Author": "Michael Lesy",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Bearing%20Witness:%20A%20Photographic%20Chronicle%20of%20American%20Life,%201860-1945&an=Michael%20Lesy",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780394749426-us-300.jpg",
+    "Number of Copies Found": 22,
+    "Highest Price": 61.13,
+    "Median Price": 25.0,
+    "Lowest Price": 6.93,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Trajectories",
+    "Author": "Robbert Flick",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Trajectories&an=Robbert%20Flick",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780875871905-us-300.jpg",
+    "Number of Copies Found": 25,
+    "Highest Price": 105.58,
+    "Median Price": 37.5,
+    "Lowest Price": 11.58,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "The Encyclopedia of Psychoactive Plants: Ethnopharmacology and Its Applications",
+    "Author": "Christian R\u00e4tsch",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Christian%20Ratsch&tn=The%20Encyclopedia%20of%20Psychoactive%20Plants",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780892819782-us.jpg",
+    "Number of Copies Found": 28,
+    "Highest Price": 293.02,
+    "Median Price": 177.19,
+    "Lowest Price": 88.84,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Chicago's South Side 1946-1948",
+    "Author": "Wayne F. Miller",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Chicago's%20South%20Side%201946-1948&an=Wayne%20F.%20Miller",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780520223165-us-300.jpg",
+    "Number of Copies Found": 30,
+    "Highest Price": 350.36,
+    "Median Price": 45.0,
+    "Lowest Price": 7.07,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Broken Spirits",
+    "Author": "Eberhard Grames",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Broken%20Spirits&an=Eberhard%20Grames",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9783905514872-us-300.jpg",
+    "Number of Copies Found": 41,
+    "Highest Price": 35.0,
+    "Median Price": 13.34,
+    "Lowest Price": 4.73,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Tokyo: Form and Spirit",
+    "Author": "Walker Art Center/Abrams",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&tn=Tokyo:%20Form%20and%20Spirit",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780935640199-us-300.jpg",
+    "Number of Copies Found": 69,
+    "Highest Price": 123.36,
+    "Median Price": 35.0,
+    "Lowest Price": 6.54,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Images from the Floating World: The Japanese Print",
+    "Author": "Richard Lane",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&an=Richard%20Lane&tn=Images%20from%20the%20Floating%20World:%20The%20Japanese%20Print",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780914427544-us-300.jpg",
+    "Number of Copies Found": 158,
+    "Highest Price": 50.0,
+    "Median Price": 32.3,
+    "Lowest Price": 7.33,
+    "Date of Search": "2023-12-08"
+  },
+  {
+    "Title": "Photographs",
+    "Author": "Man Ray",
+    "ABE Search": "https://www.abebooks.com/servlet/SearchResults?sts=t&cm_sp=SearchF-_-home-_-Results&ref_=search_f_hp&tn=Photographs&an=Man%20Ray",
+    "Stock Image": "https://pictures.abebooks.com/isbn/9780500274736-us-300.jpg",
+    "Number of Copies Found": 263,
+    "Highest Price": 30.0,
+    "Median Price": 19.08,
+    "Lowest Price": 7.42,
+    "Date of Search": "2023-12-08"
+  }
 ]
